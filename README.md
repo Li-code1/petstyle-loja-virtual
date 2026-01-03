@@ -2,34 +2,35 @@
 # 🐾 Pet&Style - Loja de Pets com Estilo
 
 Este é um projeto fictício de uma loja online chamada **Pet&Style**, especializada em produtos estilosos para pets.  
-O objetivo é aplicar conceitos de **Tailwind CSS** e **responsividade** em um site simples e moderno.
+O objetivo é aplicar conceitos de **HTML5**, **Tailwind CSS** e **responsividade**, incluindo um **menu hamburguer para mobile** e um **footer com ano automático**.
 
 ---
 
 ## 🚀 Tecnologias utilizadas
 - **HTML5**: Estrutura semântica da página.
 - **Tailwind CSS (via CDN)**: Estilização com classes utilitárias.
-- **JavaScript simples**: Atualização automática do ano no footer.
+- **JavaScript simples**: 
+  - Alternar o menu hamburguer no mobile.
+  - Atualizar automaticamente o ano no footer.
 
 ---
 
 ## 📂 Estrutura do projeto
 ```
-PETSTYLE-LOJA-VIRTUAL/
-├── index.html  # Página principal
-├── img/        # Pasta com imagens (logo e produtos)
+petstyle/
+├── index.html        # Página principal
+├── img/              # Pasta com imagens (logo e produtos)
 │   ├── logo.png
 │   ├── caminha.png
 │   ├── brinquedo.png
 │   ├── coleira.png
 │   └── acessorio.png
-├── README.md
 ```
 
 ---
 
 ## 📑 Seções da página
-1. **Header**: Logo e menu de navegação.
+1. **Header**: Logo + menu de navegação responsivo com botão hamburguer.
 2. **Hero**: Chamada principal com imagem de destaque.
 3. **Produtos**: Grid responsivo com 4 cards de produtos.
 4. **Depoimentos**: Comentários fictícios de clientes.
@@ -41,6 +42,7 @@ PETSTYLE-LOJA-VIRTUAL/
 ## 📱 Responsividade
 - Estratégia **Mobile First**.
 - Uso de breakpoints do Tailwind (`sm:`, `md:`, `lg:`).
+- Menu hamburguer para celulares e tablets.
 - Layout adaptado para celulares, tablets e desktops.
 
 ---
@@ -54,6 +56,7 @@ PETSTYLE-LOJA-VIRTUAL/
 
 ## ✨ Demonstração
 - O site exibe os produtos fictícios da loja Pet&Style.
+- O menu hamburguer aparece no mobile e abre/fecha com clique.
 - O footer mostra automaticamente o ano atual:
   ```html
   <p>&copy; <span id="ano"></span> Pet&Style - Todos os direitos reservados.</p>
@@ -67,8 +70,6 @@ PETSTYLE-LOJA-VIRTUAL/
 ## 📌 Observações
 - As imagens podem ser substituídas por fotos reais de produtos.
 - O projeto pode ser facilmente publicado em **GitHub Pages**, **Vercel** ou **Netlify**.
-
----
 ```
 
 ---
